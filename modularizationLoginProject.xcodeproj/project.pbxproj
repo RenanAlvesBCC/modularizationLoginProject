@@ -10,12 +10,22 @@
 		59F66A922896DA5F007077AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66A912896DA5F007077AA /* AppDelegate.swift */; };
 		59F66A942896DA5F007077AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66A932896DA5F007077AA /* SceneDelegate.swift */; };
 		59F66A962896DA5F007077AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66A952896DA5F007077AA /* ViewController.swift */; };
-		59F66A992896DA5F007077AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F66A972896DA5F007077AA /* Main.storyboard */; };
 		59F66A9B2896DA5F007077AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59F66A9A2896DA5F007077AA /* Assets.xcassets */; };
 		59F66A9E2896DA5F007077AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F66A9C2896DA5F007077AA /* LaunchScreen.storyboard */; };
 		59F66AA92896DA5F007077AA /* modularizationLoginProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66AA82896DA5F007077AA /* modularizationLoginProjectTests.swift */; };
 		59F66AB32896DA5F007077AA /* modularizationLoginProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66AB22896DA5F007077AA /* modularizationLoginProjectUITests.swift */; };
 		59F66AB52896DA5F007077AA /* modularizationLoginProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66AB42896DA5F007077AA /* modularizationLoginProjectUITestsLaunchTests.swift */; };
+		59F66AEA2896F5CB007077AA /* LoginHomeViewControllerInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66AE52896F5CB007077AA /* LoginHomeViewControllerInterfaces.swift */; };
+		59F66AEB2896F5CB007077AA /* LoginHomeViewControllerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66AE62896F5CB007077AA /* LoginHomeViewControllerPresenter.swift */; };
+		59F66AEC2896F5CB007077AA /* LoginHomeViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66AE72896F5CB007077AA /* LoginHomeViewControllerViewController.swift */; };
+		59F66AED2896F5CB007077AA /* LoginHomeViewControllerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66AE82896F5CB007077AA /* LoginHomeViewControllerInteractor.swift */; };
+		59F66AEE2896F5CB007077AA /* LoginHomeViewControllerWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66AE92896F5CB007077AA /* LoginHomeViewControllerWireframe.swift */; };
+		59F66AF62896F7F4007077AA /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66AF02896F7F4007077AA /* UIStoryboardExtension.swift */; };
+		59F66AF72896F7F4007077AA /* FormatterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66AF12896F7F4007077AA /* FormatterInterface.swift */; };
+		59F66AF82896F7F4007077AA /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66AF22896F7F4007077AA /* BaseWireframe.swift */; };
+		59F66AF92896F7F4007077AA /* PresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66AF32896F7F4007077AA /* PresenterInterface.swift */; };
+		59F66AFA2896F7F4007077AA /* ViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66AF42896F7F4007077AA /* ViewInterface.swift */; };
+		59F66AFB2896F7F4007077AA /* InteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66AF52896F7F4007077AA /* InteractorInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +50,6 @@
 		59F66A912896DA5F007077AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59F66A932896DA5F007077AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		59F66A952896DA5F007077AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		59F66A982896DA5F007077AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59F66A9A2896DA5F007077AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59F66A9D2896DA5F007077AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59F66A9F2896DA5F007077AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +58,17 @@
 		59F66AAE2896DA5F007077AA /* modularizationLoginProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modularizationLoginProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F66AB22896DA5F007077AA /* modularizationLoginProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modularizationLoginProjectUITests.swift; sourceTree = "<group>"; };
 		59F66AB42896DA5F007077AA /* modularizationLoginProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modularizationLoginProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		59F66AE52896F5CB007077AA /* LoginHomeViewControllerInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHomeViewControllerInterfaces.swift; sourceTree = "<group>"; };
+		59F66AE62896F5CB007077AA /* LoginHomeViewControllerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHomeViewControllerPresenter.swift; sourceTree = "<group>"; };
+		59F66AE72896F5CB007077AA /* LoginHomeViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHomeViewControllerViewController.swift; sourceTree = "<group>"; };
+		59F66AE82896F5CB007077AA /* LoginHomeViewControllerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHomeViewControllerInteractor.swift; sourceTree = "<group>"; };
+		59F66AE92896F5CB007077AA /* LoginHomeViewControllerWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHomeViewControllerWireframe.swift; sourceTree = "<group>"; };
+		59F66AF02896F7F4007077AA /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
+		59F66AF12896F7F4007077AA /* FormatterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormatterInterface.swift; sourceTree = "<group>"; };
+		59F66AF22896F7F4007077AA /* BaseWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWireframe.swift; sourceTree = "<group>"; };
+		59F66AF32896F7F4007077AA /* PresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterInterface.swift; sourceTree = "<group>"; };
+		59F66AF42896F7F4007077AA /* ViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewInterface.swift; sourceTree = "<group>"; };
+		59F66AF52896F7F4007077AA /* InteractorInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +119,11 @@
 		59F66A902896DA5F007077AA /* modularizationLoginProject */ = {
 			isa = PBXGroup;
 			children = (
+				59F66AEF2896F7C5007077AA /* VIPERBase */,
+				59F66AC42896DCD6007077AA /* Home */,
 				59F66A912896DA5F007077AA /* AppDelegate.swift */,
 				59F66A932896DA5F007077AA /* SceneDelegate.swift */,
 				59F66A952896DA5F007077AA /* ViewController.swift */,
-				59F66A972896DA5F007077AA /* Main.storyboard */,
 				59F66A9A2896DA5F007077AA /* Assets.xcassets */,
 				59F66A9C2896DA5F007077AA /* LaunchScreen.storyboard */,
 				59F66A9F2896DA5F007077AA /* Info.plist */,
@@ -125,6 +146,31 @@
 				59F66AB42896DA5F007077AA /* modularizationLoginProjectUITestsLaunchTests.swift */,
 			);
 			path = modularizationLoginProjectUITests;
+			sourceTree = "<group>";
+		};
+		59F66AC42896DCD6007077AA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				59F66AE52896F5CB007077AA /* LoginHomeViewControllerInterfaces.swift */,
+				59F66AE62896F5CB007077AA /* LoginHomeViewControllerPresenter.swift */,
+				59F66AE72896F5CB007077AA /* LoginHomeViewControllerViewController.swift */,
+				59F66AE82896F5CB007077AA /* LoginHomeViewControllerInteractor.swift */,
+				59F66AE92896F5CB007077AA /* LoginHomeViewControllerWireframe.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		59F66AEF2896F7C5007077AA /* VIPERBase */ = {
+			isa = PBXGroup;
+			children = (
+				59F66AF22896F7F4007077AA /* BaseWireframe.swift */,
+				59F66AF12896F7F4007077AA /* FormatterInterface.swift */,
+				59F66AF52896F7F4007077AA /* InteractorInterface.swift */,
+				59F66AF32896F7F4007077AA /* PresenterInterface.swift */,
+				59F66AF02896F7F4007077AA /* UIStoryboardExtension.swift */,
+				59F66AF42896F7F4007077AA /* ViewInterface.swift */,
+			);
+			path = VIPERBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +279,6 @@
 			files = (
 				59F66A9E2896DA5F007077AA /* LaunchScreen.storyboard in Resources */,
 				59F66A9B2896DA5F007077AA /* Assets.xcassets in Resources */,
-				59F66A992896DA5F007077AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +304,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				59F66A962896DA5F007077AA /* ViewController.swift in Sources */,
+				59F66AF72896F7F4007077AA /* FormatterInterface.swift in Sources */,
+				59F66AEC2896F5CB007077AA /* LoginHomeViewControllerViewController.swift in Sources */,
+				59F66AF82896F7F4007077AA /* BaseWireframe.swift in Sources */,
+				59F66AFA2896F7F4007077AA /* ViewInterface.swift in Sources */,
+				59F66AF62896F7F4007077AA /* UIStoryboardExtension.swift in Sources */,
+				59F66AFB2896F7F4007077AA /* InteractorInterface.swift in Sources */,
+				59F66AEE2896F5CB007077AA /* LoginHomeViewControllerWireframe.swift in Sources */,
+				59F66AEB2896F5CB007077AA /* LoginHomeViewControllerPresenter.swift in Sources */,
 				59F66A922896DA5F007077AA /* AppDelegate.swift in Sources */,
+				59F66AF92896F7F4007077AA /* PresenterInterface.swift in Sources */,
 				59F66A942896DA5F007077AA /* SceneDelegate.swift in Sources */,
+				59F66AED2896F5CB007077AA /* LoginHomeViewControllerInteractor.swift in Sources */,
+				59F66AEA2896F5CB007077AA /* LoginHomeViewControllerInterfaces.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +353,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		59F66A972896DA5F007077AA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				59F66A982896DA5F007077AA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		59F66A9C2896DA5F007077AA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +490,6 @@
 				INFOPLIST_FILE = modularizationLoginProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +517,6 @@
 				INFOPLIST_FILE = modularizationLoginProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
