@@ -18,7 +18,6 @@ s.default_subspecs = "Home"
 
     s.subspec 'Home' do |sp|
      sp.source_files = 'modularizationLoginProject/Home/**/*'
-     sp.dependency 'modularizationLoginProject/VIPERBase'
     end
 
 end
