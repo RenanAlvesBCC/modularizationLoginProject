@@ -13,13 +13,13 @@ extension ViewInterface{
     
     func showLoading() {
         DispatchQueue.main.async {
-            self.showLoadingView()
+//            self.showLoadingView()
         }
     }
     
     func hideLoading() {
         DispatchQueue.main.async {
-            self.hideLoadingView()
+//            self.hideLoadingView()
         }
     }
     
@@ -30,8 +30,8 @@ extension ViewInterface{
     }
     
     func inform(title: String, description: String, closeText: String, onClose: @escaping () -> ()) {
-        DispatchQueue.main.async {
-            self.showAlert(title: title, description: description, closeText: closeText, callback: onClose)
-        }
+//        DispatchQueue.main.async {
+//            self.showAlert(title: title, description: description, closeText: closeText, callback: onClose)
+//        }
     }
 }

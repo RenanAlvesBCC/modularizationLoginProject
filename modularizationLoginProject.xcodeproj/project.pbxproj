@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		060B54E7EF22E6001AF5A76C /* Pods_modularizationLoginProject_modularizationLoginProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913C3BBB0EE2C9A44A39EE8F /* Pods_modularizationLoginProject_modularizationLoginProjectUITests.framework */; };
 		2CA4C5AA7CFC7BC5B71FC702 /* Pods_modularizationLoginProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC35DCB804BBEC55748E66FB /* Pods_modularizationLoginProject.framework */; };
+		59218C6C28981C3900227042 /* modularizationLoginProject.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 59218C6B28981C3900227042 /* modularizationLoginProject.podspec */; };
+		59218C7128981F1500227042 /* ExampleProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59218C7028981F1500227042 /* ExampleProject.swift */; };
 		59F66A922896DA5F007077AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66A912896DA5F007077AA /* AppDelegate.swift */; };
 		59F66A942896DA5F007077AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66A932896DA5F007077AA /* SceneDelegate.swift */; };
 		59F66A962896DA5F007077AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F66A952896DA5F007077AA /* ViewController.swift */; };
@@ -51,6 +53,8 @@
 /* Begin PBXFileReference section */
 		00B9F7865570E02FEC1CD6F3 /* Pods_modularizationLoginProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_modularizationLoginProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C76A3FD5EC98BD9FB6DF3CA /* Pods-modularizationLoginProject-modularizationLoginProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-modularizationLoginProject-modularizationLoginProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-modularizationLoginProject-modularizationLoginProjectUITests/Pods-modularizationLoginProject-modularizationLoginProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		59218C6B28981C3900227042 /* modularizationLoginProject.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = modularizationLoginProject.podspec; sourceTree = SOURCE_ROOT; };
+		59218C7028981F1500227042 /* ExampleProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProject.swift; sourceTree = "<group>"; };
 		59F66A8E2896DA5F007077AA /* modularizationLoginProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modularizationLoginProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F66A912896DA5F007077AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59F66A932896DA5F007077AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +115,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59218C6F28981F0000227042 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				59218C7028981F1500227042 /* ExampleProject.swift */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
 		59F66A852896DA5E007077AA = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +148,8 @@
 		59F66A902896DA5F007077AA /* modularizationLoginProject */ = {
 			isa = PBXGroup;
 			children = (
+				59218C6F28981F0000227042 /* Example */,
+				59218C6B28981C3900227042 /* modularizationLoginProject.podspec */,
 				59F66AEF2896F7C5007077AA /* VIPERBase */,
 				59F66AC42896DCD6007077AA /* Home */,
 				59F66A912896DA5F007077AA /* AppDelegate.swift */,
@@ -200,7 +214,6 @@
 				875C4DB1FE5E9B32458E450D /* Pods-modularizationLoginProjectTests.debug.xcconfig */,
 				E00747A5907D7A07EDFB1392 /* Pods-modularizationLoginProjectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -225,6 +238,7 @@
 				59F66A8A2896DA5F007077AA /* Sources */,
 				59F66A8B2896DA5F007077AA /* Frameworks */,
 				59F66A8C2896DA5F007077AA /* Resources */,
+				E9A29751386F0EAABE5A018A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,6 +276,7 @@
 				59F66AAA2896DA5F007077AA /* Sources */,
 				59F66AAB2896DA5F007077AA /* Frameworks */,
 				59F66AAC2896DA5F007077AA /* Resources */,
+				03560274E1B07AB91558204E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -323,6 +338,7 @@
 			files = (
 				59F66A9E2896DA5F007077AA /* LaunchScreen.storyboard in Resources */,
 				59F66A9B2896DA5F007077AA /* Assets.xcassets in Resources */,
+				59218C6C28981C3900227042 /* modularizationLoginProject.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +359,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		03560274E1B07AB91558204E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-modularizationLoginProject-modularizationLoginProjectUITests/Pods-modularizationLoginProject-modularizationLoginProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-modularizationLoginProject-modularizationLoginProjectUITests/Pods-modularizationLoginProject-modularizationLoginProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-modularizationLoginProject-modularizationLoginProjectUITests/Pods-modularizationLoginProject-modularizationLoginProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		12F165CC5CFB63C6E9F30D1A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -387,6 +420,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E9A29751386F0EAABE5A018A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-modularizationLoginProject/Pods-modularizationLoginProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-modularizationLoginProject/Pods-modularizationLoginProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-modularizationLoginProject/Pods-modularizationLoginProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F21DE79C7C8BFA74E5220B9A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -423,6 +473,7 @@
 				59F66AFA2896F7F4007077AA /* ViewInterface.swift in Sources */,
 				59F66AF62896F7F4007077AA /* UIStoryboardExtension.swift in Sources */,
 				59F66AFB2896F7F4007077AA /* InteractorInterface.swift in Sources */,
+				59218C7128981F1500227042 /* ExampleProject.swift in Sources */,
 				59F66AEE2896F5CB007077AA /* LoginHomeViewControllerWireframe.swift in Sources */,
 				59F66AEB2896F5CB007077AA /* LoginHomeViewControllerPresenter.swift in Sources */,
 				59F66A922896DA5F007077AA /* AppDelegate.swift in Sources */,
