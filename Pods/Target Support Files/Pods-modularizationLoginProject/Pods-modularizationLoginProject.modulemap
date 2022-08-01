@@ -1,0 +1,6 @@
+framework module Pods_modularizationLoginProject {
+  umbrella header "Pods-modularizationLoginProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_modularizationLoginProject_modularizationLoginProjectUITests : NSObject
+@end
+@implementation PodsDummy_Pods_modularizationLoginProject_modularizationLoginProjectUITests
+@end
